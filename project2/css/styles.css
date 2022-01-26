@@ -1,0 +1,15 @@
+body {
+    background-color: #CDB4DB;
+}
+
+#container{
+    background-color: #BDE0FE;
+    width: 800px;
+    margin: 20px auto;
+}
+
+header img {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+}
