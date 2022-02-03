@@ -1,10 +1,11 @@
 body {
     background-color: #F7F7F7;
+    font-family: 'Inconsolata', monospace;
 }
 
 #container {
     background-color: #F1F1F1;
-    width: 90%;
+    width: 95%;
     margin: 20px auto;
     padding: 0px;
     border-radius: 20px;
@@ -13,7 +14,8 @@ body {
 header {
     background-color: #454545;
     border-radius: 20px 20px 0 0;
-    padding-bottom: 10px;
+    padding: 10px;
+    color: #F7F7F7;
 }
 
 header img {
@@ -24,7 +26,8 @@ header img {
 }
 
 header h1 {
-    color: #F7F7F7;
+    color: #F1F1F1;
+    font-family: 'Alfa Slab One', cursive;
     font-size: 3em;
 }
 
@@ -56,7 +59,7 @@ nav a:hover {
 main {
     background-color: #454545;
     margin: 20px auto;
-    padding: 20px auto;
+    padding: 20px 20px;
     color: #F7F7F7;
     border-top: 4px solid #F1F1F1;
     border-bottom: 4px solid #F1F1F1;
@@ -69,14 +72,18 @@ main h2{
 }
 
 main img {
-    width: 50%;
     display: block;
+    width: 50%;
     margin: 20px auto;
     border-radius: 20px;
 }
 
+main a {
+    color: lightblue
+}
+
 footer {
-    background-color: #F1F1F1;
+    background-color: #454545;
     border-radius: 0 0 20px 20px;
     text-align: center; 
     padding: 10px;
