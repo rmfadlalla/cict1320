@@ -1,16 +1,18 @@
 img {
     display: block;
-    width: 100%;
-    margin: 20px auto;
-    border-radius: 20px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 body {
-    background-color: #417FA0;
+    background-color: #344E41;
+    font-family: 'Arima Madurai', cursive;
 }
 
+/* mobile styles */
+
 #container {
-    background-color: #A9DBF5;
+    background-color: #DAD7CD;
     width: 95%;
     margin: 20px auto;
     padding: 0px;
@@ -20,30 +22,64 @@ body {
 header {
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #417FA0;
+    border-bottom: 2px solid #344E41;
+    background-color: #588157;
+    border-radius: 20px 20px 0 0;
 }
 
-.col {
-    border: 2px solid #417FA0;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
+header h1 {
+    font-family: 'Fredericka the Great', cursive;
 }
 
-.col img {
-    width: 65%;
+header img {
+    display: block;
+    width: 20%;
+    border-radius: 0;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 main img {
-    width: 65%;
+    width: 40%;
+    border-radius: 5px;
     margin: 20px auto;
 }
 
-footer {
-    padding: 40px 0;
+.button {
+    background-color: #344E41;
+    padding: 15px 31%;
+    color: #DAD7CD;
     text-align: center;
-    border-top: 2px solid #417FA0;
-    font-size: 1em;
+    text-decoration: none;
+    display: block;
+    font-size: 1.25em;
+    border: #344E41;
+    margin: 10px auto;
+}
+
+.col {
+    border: 2px solid #344E41;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #A3B18A;
+}
+
+.col img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #344E41;
+    font-size: .75em;
+    background-color: #588157;
+    border-radius: 0 0 20px 20px;
 }
 
 
@@ -58,8 +94,8 @@ footer {
         margin: 20px auto;
     }
 
-    main img {
-        width: 50%;
+    header img {
+        width: 10%;
     }
 }
 
@@ -75,15 +111,11 @@ footer {
 
     .col {
         width: 40%;
-        margin: 20px;
+        margin: 10px;
     }
 
-    .col img {
-        width: 30%;
-    }
-
-    main img {
-        width: 15%;
+    header img {
+        width: 10%;
     }
 }
 
