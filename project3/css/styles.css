@@ -82,6 +82,7 @@ footer {
     border-radius: 0 0 20px 20px;
 }
 
+/* tablet */
 
 @media(min-width: 768px) {
     #container {
@@ -98,6 +99,8 @@ footer {
         width: 10%;
     }
 }
+
+/* Desktop */
 
 @media(min-width: 1024px) {
     #container{
